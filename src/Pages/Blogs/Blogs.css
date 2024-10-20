@@ -1,0 +1,8 @@
+.bannerPhto{
+    background-image:linear-gradient(to right, rgba(14, 3, 3, 0.589),rgba(53, 36, 3, 0.788)),
+     url('https://i.ibb.co/54bYBY1/blogs.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
+

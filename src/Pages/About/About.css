@@ -1,0 +1,7 @@
+.aboutPicture{
+    background-image:linear-gradient(to right, rgba(15, 1, 1, 0.534),rgba(19, 17, 14, 0.788)),
+     url('https://i.ibb.co/wd5Q2YD/homsSky.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }

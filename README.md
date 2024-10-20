@@ -22,6 +22,11 @@
 ### Packages and api docs used in this project:
 - [prop-types](https://www.npmjs.com/package/prop-types?activeTab=readme/)
 - [react-swiper](https://swiperjs.com/react/)
+- [react-helmet](https://www.npmjs.com/package/react-helmet-async/)
+- [react-icons](https://www.npmjs.com/package/react-icons/)
+- [react-aos](https://www.npmjs.com/package/aos/)
+- [react-hot-toast](https://www.npmjs.com/package/react-hot-toast/)
+- [react-tooltip](https://www.npmjs.com/package/react-tooltip/)
 
 
 

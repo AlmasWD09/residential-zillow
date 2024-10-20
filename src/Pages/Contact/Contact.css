@@ -1,0 +1,7 @@
+.contactPicture{
+    background-image:linear-gradient(to right, rgba(17, 6, 6, 0.479),rgba(20, 10, 80, 0.363)),
+     url('https://i.ibb.co/SfkSvvj/contact.webp');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ }
