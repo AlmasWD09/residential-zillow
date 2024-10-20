@@ -90,9 +90,9 @@ const Register = () => {
                                 <span className="relative">Continue</span>
                             </button>
                         </div>
-                        <p className="px-4 py-2">Don't Have an account? <Link to="/login" className="font-bold text-emerald-900">Login</Link></p>
                     </form>
                     <SocialLogin />
+                        <p className="px-4 py-2">Don't Have an account? <Link to="/login" className="font-bold text-emerald-900">Login</Link></p>
                 </div>
             </div>
         </>

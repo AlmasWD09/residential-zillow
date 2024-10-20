@@ -46,8 +46,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="flex items-center cursor-pointer" onClick={handleClickZillow}>
-                        <img src="https://i.ibb.co/0V8pHfj/logo.webp" alt="" />
-                        <p className="text-xl font-bold text-emerald-900">Zillow</p>
+                        <p className="text-xl text-gray-500 font-bold">Residential<span className="text-emerald-900">Zillow</span></p>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex items-center">

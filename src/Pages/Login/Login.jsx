@@ -77,9 +77,9 @@ const Login = () => {
                                 <span className="relative">Continue</span>
                             </button>
                         </div>
-                        <p className="px-4 py-2">Already Have an account? <Link to="/register" className="font-bold text-emerald-900">Register</Link></p>
                     </form>
                     <SocialLogin />
+                        <p className="px-4 py-2">Already Have an account? <Link to="/register" className="font-bold text-emerald-900">Register</Link></p>
                 </div>
             </div>
         </>

@@ -1,7 +1,7 @@
 
 # project-name
 
-- [Live Site](/):
+- [Live Site](https://residential-zillow.vercel.app/):
 
 
 
@@ -21,6 +21,7 @@
 
 ### Packages and api docs used in this project:
 - [prop-types](https://www.npmjs.com/package/prop-types?activeTab=readme/)
+- [daisyui](https://daisyui.com/docs/install/)
 - [react-swiper](https://swiperjs.com/react/)
 - [react-helmet](https://www.npmjs.com/package/react-helmet-async/)
 - [react-icons](https://www.npmjs.com/package/react-icons/)
@@ -39,9 +40,5 @@
 <br/>
 -[project start for------> npm run dev]
 
-## Clone repository Server-site (NEED)
--[npm i]
-<br/>
--[mongo db user create]
-<br/>
--[project start for------> nodemon index.js]
+
+

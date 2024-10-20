@@ -8,8 +8,7 @@ const Footer = () => {
 
                 <div className=" flex flex-col items-center md:items-start">
                     <div className="flex items-center py-3">
-                        <img src="https://i.ibb.co/0V8pHfj/logo.webp" alt="" />
-                        <p className="text-xl font-bold text-emerald-900">Zillow</p>
+                    <p className="text-xl text-gray-500 font-bold">Residential<span className="text-emerald-900">Zillow</span></p>
                     </div>
                     <a className="">Branding</a>
                     <a className="">Design</a>

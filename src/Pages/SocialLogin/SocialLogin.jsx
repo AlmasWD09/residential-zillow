@@ -1,11 +1,10 @@
 import { FcGoogle } from "react-icons/fc";
-import { FaGithub } from "react-icons/fa";
 
 import { useLocation, useNavigate } from "react-router-dom";
 import UseAuth from "../Utllity/UseAuth";
 
 const SocialLogin = () => {
-    const {googleLogin,githubLogin} = UseAuth();
+    const {googleLogin} = UseAuth();
     const navigate = useNavigate();
     const location = useLocation()
 
@@ -25,14 +24,6 @@ const SocialLogin = () => {
             className="btn w-full ">
                 <span className="text-2xl"><FcGoogle /></span>
                  Continue with Google
-                 </button>
-            </div>
-            <div className="flex items-center">
-            <button
-            onClick={()=>handleSocialLogin(githubLogin)}
-            className="btn w-full ">
-                <span className="text-2xl"><FaGithub /></span>
-                 Continue with Github
                  </button>
             </div>
             </div>
