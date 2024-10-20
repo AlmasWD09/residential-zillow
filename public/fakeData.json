@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/hYBzhY0/long-shot-couple-looking-out-window-their-new-house.webp",
+      "title": "Cozy Single-Family Home",
+      "name": "Maplewood House",
+      "description": "Beautiful single-family home with spacious rooms and a backyard garden.",
+      "price": "$350,000",
+      "status": "For Sale",
+      "area": "1800 sqft",
+      "location": "Maplewood, New Jersey",
+      "facility": ["Backyard garden", "Spacious rooms", "Garage"]
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/vVVZdrL/john-torcasio-SY8s-LUvl-Ua4-unsplash.webp",
+      "title": "Modern Townhouse",
+      "name": "Cityscape Townhome",
+      "description": "Contemporary townhouse in a vibrant urban community with access to amenities.",
+      "price": "$2,500/month",
+      "status": "For Rent",
+      "area": "1500 sqft",
+      "location": "Downtown San Francisco, California",
+      "facility": ["Gym access", "Private patio", "Modern kitchen"]
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/KbwLGzy/picture03.webp",
+      "title": "Luxury Apartment",
+      "name": "Riverside Heights",
+      "description": "Luxurious apartment overlooking the river, with high-end finishes and amenities.",
+      "price": "$4,500/month",
+      "status": "For Sale",
+      "area": "2000 sqft",
+      "location": "Manhattan, New York",
+      "facility": ["Rooftop pool", "Fitness center", "Balcony with river view"]
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/fGkpmGr/student-House.webp",
+      "title": "Student Housing Complex",
+      "name": "Campus Commons",
+      "description": "Convenient student housing with study lounges, recreation areas, and modern facilities.",
+      "price": "$800/month",
+      "status": "For Rent",
+      "area": "600 sqft (per room)",
+      "location": "Near University of Texas, Austin",
+      "facility": ["Study lounges", "Fitness center", "Shared kitchen"]
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/VwNV3gY/picture04.webp",
+      "title": "Senior Living Community",
+      "name": "Sunrise Manor",
+      "description": "Warm and welcoming community for seniors offering various activities and care options.",
+      "price": "$3,000/month",
+      "status": "For Rent",
+      "area": "900 sqft (per unit)",
+      "location": "Scottsdale, Arizona",
+      "facility": ["Community center", "Assisted living services", "Beautiful garden"]
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/0jpYb1N/picture06.webp",
+      "title": "Seaside Vacation Rental",
+      "name": "Ocean Breeze Villa",
+      "description": "Charming villa steps away from the new beach and other facility , perfect for a relaxing getaway.",
+      "price": "$250/night",
+      "status": "For Rent",
+      "area": "1200 sqft",
+      "location": "Hawaii, USA",
+      "facility": ["Beachfront access", "Private pool", "Outdoor dining area"]
+    },
+    {
+      "id": 7,
+      "image": "https://i.ibb.co/mqTGWkJ/picture07.webp",
+      "title": "Family Retreat",
+      "name": "Forest Haven",
+      "description": "Spacious single-family home nestled in a tranquil forest setting.",
+      "price": "$450,000",
+      "status": "For Sale",
+      "area": "2200 sqft",
+      "location": "Asheville, North Carolina",
+      "facility": ["Wooded backyard", "Large deck", "Fireplace"]
+    },
+    {
+      "id": 8,
+      "image": "https://i.ibb.co/Q6Zn5H8/picture08.webp",
+      "title": "Historic Townhouse",
+      "name": "Victorian Terrace",
+      "description": "Elegant townhouse with Victorian charm and modern conveniences.",
+      "price": "$3,200/month",
+      "status": "For Rent",
+      "area": "1800 sqft",
+      "location": "Boston, Massachusetts",
+      "facility": ["Historic architecture", "Gourmet kitchen", "Balcony"]
+    },
+    {
+      "id": 9,
+      "image": "https://i.ibb.co/RPpNzG4/picture09.webp",
+      "title": "Urban Loft Apartment",
+      "name": "Metropolitan Lofts",
+      "description": "Sleek loft apartment in the heart of the city with industrial-style design.",
+      "price": "$5,000/month",
+      "status": "For Rent",
+      "area": "1600 sqft",
+      "location": "Chicago, Illinois",
+      "facility": ["Exposed brick walls", "High ceilings", "City views"]
+    }
+
+  ]
+  
