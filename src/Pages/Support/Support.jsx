@@ -15,7 +15,8 @@ const Support = () => {
     }, [])
     return (
         <>
-            <Helmet>
+           <div className="pt-14">
+           <Helmet>
                 <title>Residential-support!!</title>
             </Helmet>
             <div className=" h-[160px] md:h-[250px] lg:h-[300px] flex flex-col justify-center items-center rounded supportPicture mt-5">
@@ -78,6 +79,7 @@ const Support = () => {
                 </div>
             </div>
             <AccordingPage />
+           </div>
         </>
     );
 };

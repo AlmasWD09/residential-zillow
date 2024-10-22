@@ -32,10 +32,11 @@ const UpdateProfile = () => {
     
     return (
         <>
-            <Helmet>
+          <div className="pt-28">
+          <Helmet>
                 <title>Residential-updateProfile!!</title>
             </Helmet>
-            <div className="flex justify-center items-center px-8 lg:px-24 mt-10 lg:mt-20">
+            <div className="flex justify-center items-center px-8">
                 <div className="w-full md:w-3/5 lg:w-1/3 mx-auto p-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg">
                     <h1 className="text-xl font-bold text-center p-4 animate__animated animate__fadeInDown animation-duration: 2s">
                         Update Profile
@@ -56,6 +57,7 @@ const UpdateProfile = () => {
                     </form>
                 </div>
             </div>
+          </div>
         </>
     );
 };

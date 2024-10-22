@@ -17,7 +17,8 @@ const Blogs = () => {
     }, [])
     return (
         <>
-            <Helmet>
+           <div className="pt-14">
+           <Helmet>
                 <title>Residential-blogs!!</title>
             </Helmet>
                 {/* blogs banner */}
@@ -83,6 +84,7 @@ const Blogs = () => {
                         </div>
                     </div>
                 </div>
+           </div>
            </div>
         </>
     );

@@ -3,11 +3,13 @@ import "./Navbar.css"
 import { useNavigate } from "react-router-dom";
 import UseAuth from "../../Utllity/UseAuth";
 import { Tooltip } from 'react-tooltip'
+import { useState } from "react";
 
 
 
 const Navbar = () => {
     const { user,logOut} = UseAuth();
+    const [navbar, setNavbar] = useState(false)
     const navigate = useNavigate();
     const links = <>
         <NavLink to="/"><li>Home</li></NavLink>
@@ -32,8 +34,20 @@ const Navbar = () => {
         logOut();
         navigate('/')
     }
+
+ // background color add in navbar scroll
+ const changeBackground = () => {
+    if (window.scrollY >= 32) {
+        setNavbar(true)
+    }
+    else { setNavbar(false) }
+}
+window.addEventListener('scroll', changeBackground)
+
+
+
     return (
-        <div className="h-16 shadow-2xl">
+        <div className={navbar ? 'fixed w-full bg-emerald-50 z-30  shadow-2xl' : 'fixed w-full z-30  shadow-2xl'}>
             <nav className="navbar flex justify-center  container mx-auto px-8">
                 <div className="navbar-start">
                     <div className="dropdown">

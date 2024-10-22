@@ -10,7 +10,7 @@ import { Pagination, Navigation } from 'swiper/modules';
 
 const Slider = () => {
     return (
-      <div className='mt-5'>
+      <div className='pt-20'>
           <Swiper
         pagination={{
           clickable: true,

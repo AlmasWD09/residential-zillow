@@ -17,7 +17,8 @@ const About = () => {
     }, [])
     return (
         <>
-            <Helmet>
+          <div className="pt-14">
+          <Helmet>
                 <title>Residential-about!!</title>
             </Helmet>
             <div className=" h-[160px] md:h-[250px] lg:h-[300px] flex flex-col justify-center items-center rounded aboutPicture mt-5">
@@ -143,10 +144,9 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
+          </div>
         </>
     );
 };
