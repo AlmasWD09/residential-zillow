@@ -58,7 +58,8 @@ const Register = () => {
     }
     return (
         <>
-            <Helmet>
+        <div className="pt-20">
+        <Helmet>
                 <title>Residential-registerPage!!</title>
             </Helmet>
             <div className=" flex justify-center items-center px-8 lg:px-24 mt-10">
@@ -95,6 +96,7 @@ const Register = () => {
                         <p className="px-4 py-2">Don't Have an account? <Link to="/login" className="font-bold text-emerald-900">Login</Link></p>
                 </div>
             </div>
+        </div>
         </>
     );
 };

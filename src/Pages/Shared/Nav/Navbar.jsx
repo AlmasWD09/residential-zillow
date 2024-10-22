@@ -8,7 +8,7 @@ import { useState } from "react";
 
 
 const Navbar = () => {
-    const { user,logOut} = UseAuth();
+    const { user, logOut } = UseAuth();
     const [navbar, setNavbar] = useState(false)
     const navigate = useNavigate();
     const links = <>
@@ -17,10 +17,10 @@ const Navbar = () => {
         <NavLink to="/contact"><li>Contact</li></NavLink>
         <NavLink to="/support"><li>Support</li></NavLink>
         {
-        user&&<>
-        <NavLink to="/blogs"><li>Blogs</li></NavLink>
-        <NavLink to="/updateProfile"><li>Update Profile</li></NavLink>
-        </> 
+            user && <>
+                <NavLink to="/blogs"><li>Blogs</li></NavLink>
+                <NavLink to="/updateProfile"><li>Update Profile</li></NavLink>
+            </>
         }
     </>
 
@@ -30,19 +30,19 @@ const Navbar = () => {
 
 
     // logOut button 
-    const handleLogOut = () =>{
+    const handleLogOut = () => {
         logOut();
         navigate('/')
     }
 
- // background color add in navbar scroll
- const changeBackground = () => {
-    if (window.scrollY >= 32) {
-        setNavbar(true)
+    // background color add in navbar scroll
+    const changeBackground = () => {
+        if (window.scrollY >= 32) {
+            setNavbar(true)
+        }
+        else { setNavbar(false) }
     }
-    else { setNavbar(false) }
-}
-window.addEventListener('scroll', changeBackground)
+    window.addEventListener('scroll', changeBackground)
 
 
 
@@ -71,7 +71,7 @@ window.addEventListener('scroll', changeBackground)
                 </div>
                 <div className="navbar-end">
                     {
-                        user ? <div className="w-10 h-10 rounded-full" data-tooltip-id="my-tooltip" data-tooltip-place="left" data-tooltip-content={user.displayName}>
+                        user ? <div className="w-10 h-10 rounded-full hidden md:block" data-tooltip-id="my-tooltip" data-tooltip-place="left" data-tooltip-content={user.displayName}>
                             <img className="rounded-full" src={user.photoURL} alt={user.photoURL} />
                             <Tooltip id="my-tooltip" />
                         </div>
@@ -79,11 +79,11 @@ window.addEventListener('scroll', changeBackground)
                             ''
                     }
 
-                    
+
                     {/* button condition rendering */}
                     {
                         user ?
-                            <button onClick={handleLogOut} href="#_" className="rounded relative inline-flex group items-center justify-center px-3.5 py-2 m-1 cursor-pointer  border-l-2 active:border-emerald-900 active:shadow-none shadow-lg bg-gradient-to-tr from-emerald-900 to-emerald-900 border-emerald-900 text-white">
+                            <button onClick={handleLogOut} href="#_" className="rounded relative inline-flex group items-center justify-center px-2 md:px-3.5 py-2 m-1 cursor-pointer  border-l-2 active:border-emerald-900 active:shadow-none shadow-lg bg-gradient-to-tr from-emerald-900 to-emerald-900 border-emerald-900 text-white">
                                 <span className="absolute w-0 h-0 transition-all duration-300 ease-out bg-white rounded-full group-hover:w-32 group-hover:h-32 opacity-10"></span>
                                 <span className="relative">LogOut</span>
                             </button>

@@ -50,12 +50,13 @@ const Login = () => {
     
     return (
         <>
-            <Helmet>
+           <div className="pt-28">
+           <Helmet>
                 <title>Residential-loginPage!!</title>
             </Helmet>
-            <div className="flex justify-center items-center px-8 lg:px-24 mt-10">
+            <div className="flex justify-center items-center px-8">
                 <div className="w-full md:w-3/5 lg:w-1/3 mx-auto p-4 shadow-[rgba(0,_0,_0,_0.24)_0px_3px_8px] rounded-lg ">
-                    <h1 className="text-xl font-bold text-center p-4">Please Login</h1>
+                    <h1 className="text-2xl font-semibold text-center p-4">Please Login</h1>
                     <form onSubmit={handleLogin}>
                         <div className="">
                             <input className="w-full mb-6 p-4 border border-gray-300 rounded-lg outline-0" type="email" name="email" id="" placeholder="Email address" required />
@@ -82,6 +83,7 @@ const Login = () => {
                         <p className="px-4 py-2">Already Have an account? <Link to="/register" className="font-bold text-emerald-900">Register</Link></p>
                 </div>
             </div>
+           </div>
         </>
 
     );
