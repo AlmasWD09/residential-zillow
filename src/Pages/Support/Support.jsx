@@ -26,7 +26,7 @@ const Support = () => {
                     <h1 className="text-sm">Support</h1>
                 </div>
             </div>
-            <div className="max-w-7xl mx-auto px-8 mt-10">
+            <div className="container mx-auto px-8 mt-10">
                 <h1 className="text-2xl font-bold text-center ">Our Support Pollicy</h1>
                 <div className="flex flex-col lg:flex-row gap-6 mt-5">
                     {/* lefi side content */}

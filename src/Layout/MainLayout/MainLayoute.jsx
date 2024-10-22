@@ -24,7 +24,7 @@ const MainLayoute = () => {
                 <Footer />
             </div>
             {/* scroll backTop button add */}
-            <ScrollTopButton />
+            {/* <ScrollTopButton /> */}
         </div>
     );
 };

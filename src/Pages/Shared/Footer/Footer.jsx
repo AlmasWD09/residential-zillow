@@ -2,18 +2,20 @@
 const Footer = () => {
     
     return (
-        <div className="bg-base-200 mt-10 ">
-            <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-0 max-w-7xl mx-auto px-8 py-10">
+        <div className="bg-base-200 mt-10 px-4 ">
+            <footer className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-0 container mx-auto px-8 py-10">
 
 
                 <div className=" flex flex-col items-center md:items-start">
-                    <div className="flex items-center py-3">
-                    <p className="text-xl text-gray-500 font-bold">Residential<span className="text-emerald-900">Zillow</span></p>
+                    <div className="flex items-center">
+                    <p className="text-xl text-gray-500 font-bold pb-2">Residential<span className="text-emerald-900">Zillow</span></p>
                     </div>
+                    <div className="flex flex-col space-y-2">
                     <a className="">Branding</a>
                     <a className="">Design</a>
                     <a className="">Marketing</a>
                     <a className="">Advertisement</a>
+                    </div>
                 </div>
 
 
@@ -35,13 +37,13 @@ const Footer = () => {
                 <div className="">
                     <form className="">
                         <h6 className="footer-title">Newsletter</h6>
-                        <fieldset className="form-control">
+                        <fieldset className="">
                             <label className="label">
-                                <span className="label-text">Enter your email address</span>
+                                <span className="">Enter your email address</span>
                             </label>
                             <div className="join">
-                                <input type="text" placeholder="username@site.com" className="px-4 md:px-2 lg:px-4 py-4 border outline-none" />
-                                <button className="px-4 lg:px-2 bg-emerald-900 text-white join-item">Subscribe</button>
+                                <input type="text" placeholder="username@site.com" className="px-2 md:px-4 py-4 border outline-none" />
+                                <button className="bg-emerald-900 text-white px-2 rounded-r-lg">Subscribe</button>
                             </div>
                         </fieldset>
                     </form>

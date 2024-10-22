@@ -22,7 +22,7 @@ const ViewDetails = () => {
       <Helmet>
         <title>Residential-viewDetails!!</title>
       </Helmet>
-      <div className="max-w-7xl mx-auto pt-10 px-8 rounded-xl">
+      <div className="container mx-auto pt-10 px-8 rounded-xl">
         <div className="flex flex-col lg:flex-row gap-6 shadow-lg rounded-xl lg:p-8">
 
           <div className="w-full lg:w-1/2 bg-green-300 rounded-xl md:rounded-l-xl">

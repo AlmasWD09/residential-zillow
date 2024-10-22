@@ -28,7 +28,7 @@ const About = () => {
                     <h1 className="text-sm">About us</h1>
                 </div>
             </div>
-            <div className="max-w-7xl mx-auto mt-10 px-8">
+            <div className="container mx-auto mt-10 px-8">
                 {/*  */}
                 <div className="flex flex-col lg:flex-row justify-center lg:justify-between gap-3 lg:gap-0">
                     <div className="w-full lg:w-1/2">

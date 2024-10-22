@@ -2,7 +2,7 @@
 
 const AccordingPage = () => {
     return (
-        <div className="max-w-7xl mx-auto px-8 mt-10 ">
+        <div className="container mx-auto px-8 mt-10 ">
             <h1 className="w-3/5 mx-auto md:w-full text-xl lg:text-2xl font-semibold lg:font-bold text-center py-10">Frequently Asked Questions?</h1>
             <div className="flex flex-col lg:flex-row justify-between gap-6">
 

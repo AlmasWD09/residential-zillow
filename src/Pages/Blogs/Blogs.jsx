@@ -22,7 +22,7 @@ const Blogs = () => {
             </Helmet>
                 {/* blogs banner */}
                 <div className=" h-[160px] md:h-[250px] lg:h-[300px] flex items-center rounded bannerPhto mt-5">
-                    <div className="max-w-7xl mx-auto w-full flex justify-between text-white px-4 md:px-10" >
+                    <div className="container mx-auto w-full flex justify-between text-white px-4 md:px-10" >
                         <h1 className="text-xl md:text-3xl"data-aos="fade-right">All Posts</h1>
                         <div className="flex  items-center gap-2 md:gap-4">
                             <button className="flex items-center hover:text-emerald-800 hover:font-bold text-xs"><Link to="/">Home</Link></button>
@@ -32,7 +32,7 @@ const Blogs = () => {
                     </div>
                 </div>
 
-            <div className="max-w-7xl mx-auto px-8">
+            <div className="container mx-auto px-8">
 
 
                 <div className="flex flex-col lg:flex-row justify-between gap-6 mt-5 md:mt-10">
